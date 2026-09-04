@@ -47,6 +47,8 @@ Do not let Codex jump directly into coding. Let it investigate first.
 >
 > I want to extend or adapt existing patterns where possible rather than creating a new approach from scratch.
 >
+> I you did not find a close feature and the task is a complete new one you should mention that.
+> 
 > Don't modify anything yet.
 
 ### Technique
