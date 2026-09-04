@@ -8,11 +8,26 @@ Understand → Explore → Find references → Clarify → Plan → Approve → 
 
 ### Prompt
 
-> We have a new feature to add. Before changing anything, help me understand the task and how the existing application works.
->
-> Read the relevant parts of the repository, trace the current flow, and identify the backend, frontend, database, APIs, and tests involved.
->
-> Don't implement anything yet. I want to understand the existing architecture and how this feature fits into it.
+We have a new feature to add. Before changing anything, help me understand the task and how the existing application works.
+
+We have this task.
+
+Do not modify anything yet.
+
+First understand the repository and the task.
+
+1. Inspect the repository structure.
+2. Find the modules relevant to this task.
+3. Trace how the current functionality works.
+4. Search for similar or adjacent implementations.
+5. Find the closest existing implementation we can use as a reference.
+6. Inspect relevant tests and repository conventions.
+7. Identify ambiguities, assumptions, edge cases, and potential regression risks.
+
+I want to reuse the existing architecture and patterns wherever possible rather than creating a parallel implementation.
+
+Report your findings first. Do not change any files.
+
 
 ### Technique
 
